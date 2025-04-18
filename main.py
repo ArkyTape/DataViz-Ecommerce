@@ -12,7 +12,8 @@ def afficher_message(message, couleur=Fore.CYAN, delay=0.02):
         print(couleur + char, flush=True, end='')
         time.sleep(delay)
     print()
-
+	
+#Fonction por extraire les données
 def Extract(url, Fore):
     try:
         with open("api.txt") as file:
