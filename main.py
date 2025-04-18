@@ -23,6 +23,7 @@ def Extract(url, Fore):
         afficher_message(str(e), Fore.RED)
         return None
 
+	#Récupérer les données pour la France
     querystring = {
         "query": "Phone",
         "page": "1",
